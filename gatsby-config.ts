@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
   trailingSlash: "never",
   plugins: [
     "gatsby-plugin-vanilla-extract",
-    "gatsby-plugin-google-gtag",
+    // "gatsby-plugin-google-gtag",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
