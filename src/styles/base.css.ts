@@ -18,9 +18,10 @@ export const [ themeClass, vars ] = createTheme( {
 } );
 
 export const container = style({
-	maxWidth: 960,
+	maxWidth: 1200,
 	marginLeft: "auto",
 	marginRight: "auto",
+	padding: "0 1rem",
 });
 
 export const menuList = style( {
@@ -46,13 +47,11 @@ export const menuWrapper = style( {
 } );
 
 export const page = style( {
-	backgroundColor: vars.colors.primary,
-	minHeight: "100vh",
 } );
 
 globalStyle( 'body', {
 	margin: 0,
-	fontFamily: 'Lato'
+	fontFamily: 'Zen Maru Gothic'
 } );
 
 globalStyle( 'a', { color: "black" } );
