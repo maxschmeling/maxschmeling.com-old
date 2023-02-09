@@ -51,7 +51,7 @@ export const page = style( {
 
 globalStyle( 'body', {
 	margin: 0,
-	fontFamily: 'Zen Maru Gothic'
+	fontFamily: "Montserrat",
 } );
 
 globalStyle( 'a', { color: "black" } );
