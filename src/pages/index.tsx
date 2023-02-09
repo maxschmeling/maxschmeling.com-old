@@ -15,12 +15,12 @@ const HomePage: React.FC = () => {
 			<div className={ stickySection }>
 				<KansasCity />
 			</div>
-			<div className={ stickySection } style={ { backgroundColor: "blue" } }>
+			{/* <div className={ stickySection } style={ { backgroundColor: "blue" } }>
 				<div style={{ padding: 5}}><p>My name is Max.</p></div>
 			</div>
 			<div className={ stickySection } style={ { backgroundColor: "purple" } }>
 				<div style={{ padding: 5}}><p>I'm a software developer.</p></div>
-			</div>
+			</div> */}
 			<div className={ stickySection }>
 				<ReachOut />
 			</div>

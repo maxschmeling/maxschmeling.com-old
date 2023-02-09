@@ -16,8 +16,8 @@ globalStyle( `${ wrapper } p a`, {
 } );
 
 globalStyle( `${ wrapper }.chiefs`, {
-	backgroundColor: vars.colors.chiefsRed,
-	color: vars.colors.chiefsGold,
+	backgroundColor: vars.colors.chiefsGold,
+	color: "black",
 } );
 
 globalStyle( `${ wrapper }.royals`, {
@@ -43,7 +43,7 @@ globalStyle( `${ wrapper } svg path`, {
 } );
 
 globalStyle( `${ wrapper }.chiefs svg path`, {
-	fill: vars.colors.chiefsGold	
+	fill: vars.colors.chiefsRed
 } );
 
 globalStyle( `${ wrapper }.royals svg path`, {

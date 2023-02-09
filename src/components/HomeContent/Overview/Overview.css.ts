@@ -4,7 +4,7 @@ export const wrapper = style( {
 	display: "flex",
 	flexDirection: "column",
 	justifyContent: "space-between",
-	backgroundColor: "#3d91b7",
+	backgroundColor: "#a7d2ff",
 } );
 
 export const name = style( {

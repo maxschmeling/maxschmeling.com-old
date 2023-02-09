@@ -1,13 +1,13 @@
 import { globalStyle, style } from "@vanilla-extract/css"
 
 export const wrapper = style( {
-	backgroundImage: "url(/images/darktile.png)",
+	backgroundImage: "url(/images/lightbgtexture.png)",
 	backgroundRepeat: "repeat",
 	display: "flex",
 	flexDirection: "column",
 	justifyContent: "space-between",
 	padding: "2rem",
-	color: "white",
+	color: "black",
 	width: "100%"
 } );
 
@@ -52,7 +52,7 @@ globalStyle( `${ wrapper } ul li`, {
 globalStyle( `${ wrapper } a`, {
 	textTransform: "uppercase",
 	textDecoration: "underline",
-	color: "white",
+	color: "black",
 } );
 
 globalStyle( `${ wrapper } header`, {
